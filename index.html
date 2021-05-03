@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autocompletado</title>
+    <!--Bootstrap 4.5-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/fuzzycomplete.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head> 
+
+<body class="dark-light">
+    <header class="py-2">
+        <h1 class="text-center text-white">INTERNET II</h1>
+        <p class="text-center text-light">Autocompletado de formulario</p>
+    </header>
+    <main>
+        <div class="container d-flex justify-content-center align-items-center">
+            <form action="" class="col-md-6 card">
+                <legend class="text-center my-3">Suscribete</legend>
+               <div class="row">
+                <div class="col-md-6">
+                    <div class="input-group mb-3 country">
+                        <div class="input-group-prepend">
+                            <label for="" class="input-group-text">Pais</label>
+                        </div>
+                        <input type="text" class="form-control" id="country" autocomplete="false" placeholder="Ingresar pais" required autofocus="true">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="input-group mb-3 states">
+                        <div class="input-group-prepend">
+                            <label for="" class="input-group-text">Estado</label>
+                        </div>
+                        <input type="text" class="form-control" id="states" autocomplete="false" placeholder="Ingresar estado" required>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <label for="" class="input-group-text">Email</label>
+                        </div>
+                        <input type="text" class="form-control" id="states" autocomplete="false" placeholder="Ingresar Email" required>
+                    </div>
+                </div>
+               </div>
+               <hr>
+               <button class="btn btn-success mb-3">Suscribirse</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p class="text-center text-light"><b>Desarrolladores: </b>José Deodanes & Diana Barillas</p>
+    </footer>
+    <!--JQuery V 3.6.0-->
+    <script src="./js/jquery.min.js"></script>
+    <!--Library fyzzyComplete-->
+    <script src="./js/fuse.min.js"></script>
+    <script src="./js/fuzzycomplete.min.js"></script>
+    <!--Script custom-->
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

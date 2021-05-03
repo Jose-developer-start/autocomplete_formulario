@@ -1,0 +1,19 @@
+main{
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    height: 100%;
+}
+
+/*Color*/
+.dark-light{
+    background-color: rgb(73, 91, 97);
+}
+/*Z-INDEX*/
+.country{
+    z-index: 2;
+}
+.states{
+    z-index: 1;
+}
